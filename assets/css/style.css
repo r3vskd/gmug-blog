@@ -1,9 +1,20 @@
 body {
-  background-color: darkgray;
-  color: lightblue;
+  background-color: #1c1c1c;
+  color: white;
+  font-family: monospace;
 }
 
-
 h1 {
-  color: green;
+  color: ffffff;
+  font-family: monospace;
+}
+
+p {
+  color: ffffff;
+  font-family: monospace;
+}
+
+div {
+  color: ffffff;
+  font-family: monospace;
 }
