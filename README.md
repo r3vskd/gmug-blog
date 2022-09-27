@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 My page: https://revmshell.github.io/gmug-blog/
+
+
 You can use the [editor on GitHub](https://github.com/revmshell/gmug-blog/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
