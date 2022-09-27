@@ -1,23 +1,196 @@
-body {
-  background-color: #1c1c1c;
-  color: #ffffff;
-  font-family: monospace;
+body{
+  background-color: #2a2a27;
+  color: white;
+  font-family: 'Space Mono', monospace;
 }
-
-h1 {
+h1{
   color: #ffffff;
-  font-family: monospace;
-  font-size: 28px;
-}
-
-p {
-  color: #ffffff;
-  font-family: monospace;
+  font-family: 'Space Mono', monospace;
   font-size: 20px;
+  text-align: center
+}
+div{
+  display: block;
+  color: #ffffff;
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  text-align: center
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.button:hover{
+  background-color: #3e8e41
 }
 
-div {
+.button:active{
+  background-color: #3e8e41;
+  box-shadow: 1 5px #666;
+  transform: translateY(2px);
+}
+.imgstyle{
+ box-sizing: border-box;
+}
+.textstyle{
+  box-sizing: border-box;
+}
+
+/* Dropdown Button */
+/*
+.dropbtn {
+  background-color: #333338;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+  height: auto;
+  width: auto;
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  margin-left: 30px;
+  margin-right: 70px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus{
+  background-color: #000000;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown{
+  color: #;
+  position: relative;
+  display: inline-block;
+
+}
+/* Dropdown Content (Hidden by Default) */
+/*
+.dropdown-content {
+  display: none;
+  background-color: #000000;
+  color: #35353b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  border-radius: 9px;
+  height: auto;
+  width: auto;
+  text-align: justify;
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  margin-left: 30px;
+  margin-right: 70px;
+}
+/* Links inside the dropdown */
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+
+.dropdown-content a {
+ position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{
+  /*
+  background-color: #000000;
   color: #ffffff;
-  font-family: monospace;
-  font-size: 17px;
+  width: auto;
+  height: auto;
+*/
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show{display:block;}
+/* ascii main page image*/
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+  width: 60%;
+}
+/* cat main gif*/
+.side1{
+  display: block;
+  margin-top: 90px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: auto;
+  border-radius: 18px;
+  width: 50px;
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+.centermenu{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  top: 240px;
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
+.centerfooter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 5px;
+  right: 5px;
+  width: 60%;
+  height: 14%;
+}
+.p1{
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
 }
