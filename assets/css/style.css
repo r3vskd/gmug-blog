@@ -16,14 +16,48 @@ div{
   font-size: 12px;
   text-align: center
 }
+.p1{
+  font-size: 30px;
+}
+ .textbox {
+        /* Below are styles for the codebox (not the code itself) */
+        border: 1px solid black;
+        background-color: #2a2a27;
+        width: 700px;
+        border-radius: 9px;
+        overflow: auto;    
+        padding: 8px;
+        display: inline-block;
+        font-family: cursive;
+        text-align-last: left;
+    }
+ .codebox {
+        /* Below are styles for the codebox (not the code itself) */
+        border: 1px solid black;
+        background-color: #000000;
+        width: 400px;
+        border-radius: 9px;
+        overflow: auto;    
+        padding: 8px;
+        display: inline-block;
+        font-family: 'Source Code Pro', monospace;
+        text-align-last: left;
+        lighting-color: greenyellow;
+    }
+    .codebox code {
+        /* Styles in here affect the text of the codebox */
+        font-size:0.9em;
+        /* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */
+    }
 .container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  text-align-last: right;
+  background-color: black;
+
 }
 .button:hover{
   background-color: #3e8e41
+  width: 30px;
+  height: 30px;
 }
 
 .button:active{
@@ -33,10 +67,13 @@ div{
 }
 .imgstyle{
  box-sizing: border-box;
+ margin-left: 40px;
 }
 .textstyle{
   box-sizing: border-box;
 }
+
+
 
 /* Dropdown Button */
 /*
@@ -67,6 +104,8 @@ div{
 .dropdown{
   color: #;
   position: relative;
+  margin-left: 500px;
+  margin-right: auto;
   display: inline-block;
 
 }
@@ -152,6 +191,22 @@ div{
   position: sticky;
   width: 60%;
 }
+
+/*menu res0urces*/
+.menuR{
+
+}
+
+/*menu write-ups*/
+.menuW{
+
+}
+
+/*menu n3ws*/
+.menuN{
+
+}
+
 /* cat main gif*/
 .side1{
   display: block;
@@ -193,4 +248,37 @@ div{
   display: block;
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
+}
+
+.myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+.myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+.myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
 }
